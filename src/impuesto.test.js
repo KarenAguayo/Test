@@ -8,4 +8,7 @@ describe("TOTALIZADOR",()=>{
     it("devuelve el descuento",()=>{
         expect(porcentaje_descuento(7000,5)).toEqual(0.35);
     });
+    it("devuelve el descuento",()=>{
+        expect(porcentaje_descuento(3000,100)).toEqual(5);
+    });
 });
